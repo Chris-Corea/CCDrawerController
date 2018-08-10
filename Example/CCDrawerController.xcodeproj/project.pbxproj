@@ -12,12 +12,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5F580F4CA59574445E1C75F6 /* CCDrawerController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CCDrawerController.podspec; path = ../CCDrawerController.podspec; sourceTree = "<group>"; };
+		5F580F4CA59574445E1C75F6 /* CCDrawerController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CCDrawerController.podspec; path = ../CCDrawerController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACE51AFB9204008FA782 /* CCDrawerController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCDrawerController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8372C2E928A64DDA8AC1DD03 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		89F2AE2EBAF36E1C4C240633 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8372C2E928A64DDA8AC1DD03 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		89F2AE2EBAF36E1C4C240633 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		95C522778011406479A56ADD /* Pods-CCDrawerController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCDrawerController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCDrawerController_Tests/Pods-CCDrawerController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AE56BE30941777197B06A7DB /* Pods_CCDrawerController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCDrawerController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86C55EE266E7C53692F8DF6 /* Pods-CCDrawerController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCDrawerController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCDrawerController_Tests/Pods-CCDrawerController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;

@@ -8,35 +8,23 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CCDrawerController'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CCDrawerController.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.version          = '1.0.0'
+  s.summary          = 'A lightweight, easy to use side navigation controller. Forked from DrawerController.'
 
   s.homepage         = 'https://github.com/chris-corea/CCDrawerController'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'chris-corea' => 'christopherc@juul.com' }
+  s.author           = { 'chris-corea' => 'ccorea@juul.com' }
   s.source           = { :git => 'https://github.com/chris-corea/CCDrawerController.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'CCDrawerController/Classes/**/*'
+  s.ios.deployment_target = '9.0'
   
-  # s.resource_bundles = {
-  #   'CCDrawerController' => ['CCDrawerController/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'Core' do |ss|
+      ss.source_files = 'CCDrawerController/Classes/DrawerController.swift', 'CCDrawerController/Classes/DrawerSegue.swift'
+      ss.framework  = 'QuartzCore'
+  end
+  
+  s.subspec 'CCDrawerVisualStates' do |ss|
+      ss.source_files = 'CCDrawerController/Classes/DrawerBarButtonItem.swift', 'CCDrawerController/Classes/AnimatedMenuButton.swift', 'CCDrawerController/Classes/DrawerVisualState.swift'
+      ss.dependency 'CCDrawerController/Core'
+  end
 end

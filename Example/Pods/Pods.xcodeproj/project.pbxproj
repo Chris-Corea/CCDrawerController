@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3060364F8A4900730CE135870B160E76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		512C5E503042BE37BDED7655EE12CECF /* CCDrawerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3162327B1CFEF92FE72F6F14544A0F28 /* CCDrawerController-dummy.m */; };
+		5A90907B74ABDE0834ED646D47B9CDED /* Pods-CCDrawerController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC719896792634B0F00138ADE1822C /* Pods-CCDrawerController_Tests-dummy.m */; };
+		721136370955CB22493D0AC42CEB25FD /* Pods-CCDrawerController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 110E68EC6F4ACAF458AF409399175719 /* Pods-CCDrawerController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A2DF9D6C021729F063F795BEC898264 /* CCDrawerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2229DD9B09982BCDED6AE14B5BEA0A /* CCDrawerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CC6A438211E1CFF00722D6E /* DrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6A433211E1CFF00722D6E /* DrawerController.swift */; };
+		9CC6A439211E1CFF00722D6E /* AnimatedMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6A434211E1CFF00722D6E /* AnimatedMenuButton.swift */; };
+		9CC6A43A211E1CFF00722D6E /* DrawerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6A435211E1CFF00722D6E /* DrawerSegue.swift */; };
+		9CC6A43B211E1CFF00722D6E /* DrawerVisualState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6A436211E1CFF00722D6E /* DrawerVisualState.swift */; };
+		9CC6A43C211E1CFF00722D6E /* DrawerBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6A437211E1CFF00722D6E /* DrawerBarButtonItem.swift */; };
+		B21FB09399B08A3CEE88126D3AC8AD53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE3E174181C2708A16E04799E1E855F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B7FB39B73FD8F503E10678F2AD92AFD;
+			remoteInfo = CCDrawerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06C6478C5CD1CC38C14F01307D326CE6 /* Pods-CCDrawerController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCDrawerController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		110E68EC6F4ACAF458AF409399175719 /* Pods-CCDrawerController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCDrawerController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3162327B1CFEF92FE72F6F14544A0F28 /* CCDrawerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCDrawerController-dummy.m"; sourceTree = "<group>"; };
+		3B09F91DE108ACF97E676B1C95F8282E /* Pods-CCDrawerController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCDrawerController_Tests-resources.sh"; sourceTree = "<group>"; };
+		3DDC719896792634B0F00138ADE1822C /* Pods-CCDrawerController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCDrawerController_Tests-dummy.m"; sourceTree = "<group>"; };
+		454BD13166995F21F40854783F3B60E0 /* CCDrawerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCDrawerController.modulemap; sourceTree = "<group>"; };
+		4954A896D096BB877002E9BACC41F7DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D24C63DE04E9AFEFD8206668046AFBA /* Pods-CCDrawerController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCDrawerController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6E045462D0BA51B6097A87BD299F59AF /* Pods-CCDrawerController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCDrawerController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6E454F6D59F320C102ED3D7987D1BEB5 /* Pods-CCDrawerController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCDrawerController_Tests.modulemap"; sourceTree = "<group>"; };
+		6E6B0CCC0A2EFC1AD8EE07E368F3AD37 /* CCDrawerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCDrawerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		846599A36CD1B517DE4611C2FA2D2A6D /* Pods-CCDrawerController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCDrawerController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CC6A433211E1CFF00722D6E /* DrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawerController.swift; path = CCDrawerController/Classes/DrawerController.swift; sourceTree = "<group>"; };
+		9CC6A434211E1CFF00722D6E /* AnimatedMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimatedMenuButton.swift; path = CCDrawerController/Classes/AnimatedMenuButton.swift; sourceTree = "<group>"; };
+		9CC6A435211E1CFF00722D6E /* DrawerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawerSegue.swift; path = CCDrawerController/Classes/DrawerSegue.swift; sourceTree = "<group>"; };
+		9CC6A436211E1CFF00722D6E /* DrawerVisualState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawerVisualState.swift; path = CCDrawerController/Classes/DrawerVisualState.swift; sourceTree = "<group>"; };
+		9CC6A437211E1CFF00722D6E /* DrawerBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawerBarButtonItem.swift; path = CCDrawerController/Classes/DrawerBarButtonItem.swift; sourceTree = "<group>"; };
+		9F81D647719BF47C9F03A70566179594 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D1EB87698A39C0DC7612D097D51C01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AD2229DD9B09982BCDED6AE14B5BEA0A /* CCDrawerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCDrawerController-umbrella.h"; sourceTree = "<group>"; };
+		B49A272C76B24CF884AD4984E14DB42A /* CCDrawerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCDrawerController.xcconfig; sourceTree = "<group>"; };
+		B58E1B37661F17BADE9D68D36073AB8E /* CCDrawerController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CCDrawerController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE41AF731990947CF4AFE1FF39D2FEE8 /* CCDrawerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCDrawerController-prefix.pch"; sourceTree = "<group>"; };
+		C0BD5BAA61BE768E3364F64A41F9A54B /* Pods-CCDrawerController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCDrawerController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9192D6D9AEB718C77E4E4A340F2FB84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D9B88C6A25168ECC50A08576346B92C6 /* Pods_CCDrawerController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCDrawerController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		957962F7021277E17035F775B3FCF807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3060364F8A4900730CE135870B160E76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16454B181D94305F888B9A62FD1F616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21FB09399B08A3CEE88126D3AC8AD53 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C40572451D29544D8CE2F87373EEAD1 /* CCDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				9CC6A434211E1CFF00722D6E /* AnimatedMenuButton.swift */,
+				9CC6A437211E1CFF00722D6E /* DrawerBarButtonItem.swift */,
+				9CC6A433211E1CFF00722D6E /* DrawerController.swift */,
+				9CC6A435211E1CFF00722D6E /* DrawerSegue.swift */,
+				9CC6A436211E1CFF00722D6E /* DrawerVisualState.swift */,
+				40A68B40C68F03A578820EB1AE8049A2 /* Pod */,
+				2E546BD701574CF0C408C5F62611CD55 /* Support Files */,
+			);
+			name = CCDrawerController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2E546BD701574CF0C408C5F62611CD55 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				454BD13166995F21F40854783F3B60E0 /* CCDrawerController.modulemap */,
+				B49A272C76B24CF884AD4984E14DB42A /* CCDrawerController.xcconfig */,
+				3162327B1CFEF92FE72F6F14544A0F28 /* CCDrawerController-dummy.m */,
+				BE41AF731990947CF4AFE1FF39D2FEE8 /* CCDrawerController-prefix.pch */,
+				AD2229DD9B09982BCDED6AE14B5BEA0A /* CCDrawerController-umbrella.h */,
+				9F81D647719BF47C9F03A70566179594 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CCDrawerController";
+			sourceTree = "<group>";
+		};
+		40A68B40C68F03A578820EB1AE8049A2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B58E1B37661F17BADE9D68D36073AB8E /* CCDrawerController.podspec */,
+				D9192D6D9AEB718C77E4E4A340F2FB84 /* LICENSE */,
+				A1D1EB87698A39C0DC7612D097D51C01 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		40B17C346A501A3A825B43A8102A4C72 /* Pods-CCDrawerController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4954A896D096BB877002E9BACC41F7DE /* Info.plist */,
+				6E454F6D59F320C102ED3D7987D1BEB5 /* Pods-CCDrawerController_Tests.modulemap */,
+				06C6478C5CD1CC38C14F01307D326CE6 /* Pods-CCDrawerController_Tests-acknowledgements.markdown */,
+				C0BD5BAA61BE768E3364F64A41F9A54B /* Pods-CCDrawerController_Tests-acknowledgements.plist */,
+				3DDC719896792634B0F00138ADE1822C /* Pods-CCDrawerController_Tests-dummy.m */,
+				6E045462D0BA51B6097A87BD299F59AF /* Pods-CCDrawerController_Tests-frameworks.sh */,
+				3B09F91DE108ACF97E676B1C95F8282E /* Pods-CCDrawerController_Tests-resources.sh */,
+				110E68EC6F4ACAF458AF409399175719 /* Pods-CCDrawerController_Tests-umbrella.h */,
+				846599A36CD1B517DE4611C2FA2D2A6D /* Pods-CCDrawerController_Tests.debug.xcconfig */,
+				6D24C63DE04E9AFEFD8206668046AFBA /* Pods-CCDrawerController_Tests.release.xcconfig */,
+			);
+			name = "Pods-CCDrawerController_Tests";
+			path = "Target Support Files/Pods-CCDrawerController_Tests";
+			sourceTree = "<group>";
+		};
+		48A520BD1EFA7C7287EB85F39CE21640 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40B17C346A501A3A825B43A8102A4C72 /* Pods-CCDrawerController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F569EA17B73325E64A83F895C8DAE94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E6B0CCC0A2EFC1AD8EE07E368F3AD37 /* CCDrawerController.framework */,
+				D9B88C6A25168ECC50A08576346B92C6 /* Pods_CCDrawerController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B2CD4AC24253920F9C3BF29A2D225317 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5F569EA17B73325E64A83F895C8DAE94 /* Products */,
+				48A520BD1EFA7C7287EB85F39CE21640 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B2CD4AC24253920F9C3BF29A2D225317 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C40572451D29544D8CE2F87373EEAD1 /* CCDrawerController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A71108552BDCA9E4D134EFEDED197A3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2DF9D6C021729F063F795BEC898264 /* CCDrawerController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EEFA824D1C6AAEEF9AF002666A8EEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721136370955CB22493D0AC42CEB25FD /* Pods-CCDrawerController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		413B7BE30D64154A9026B57A9740D683 /* Pods-CCDrawerController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835D95653592C7393EC6ABC4FD909351 /* Build configuration list for PBXNativeTarget "Pods-CCDrawerController_Tests" */;
+			buildPhases = (
+				08CC565586CDE0E93E2C37AB644585C1 /* Sources */,
+				957962F7021277E17035F775B3FCF807 /* Frameworks */,
+				B0EEFA824D1C6AAEEF9AF002666A8EEC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A0B6CBAED392283804623BEFD601765 /* PBXTargetDependency */,
+			);
+			name = "Pods-CCDrawerController_Tests";
+			productName = "Pods-CCDrawerController_Tests";
+			productReference = D9B88C6A25168ECC50A08576346B92C6 /* Pods_CCDrawerController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B7FB39B73FD8F503E10678F2AD92AFD /* CCDrawerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F89D7911777CC062CF37579E156333D /* Build configuration list for PBXNativeTarget "CCDrawerController" */;
+			buildPhases = (
+				4BDAFAE20B00143FA2C8C2AA40F915C0 /* Sources */,
+				F16454B181D94305F888B9A62FD1F616 /* Frameworks */,
+				A71108552BDCA9E4D134EFEDED197A3A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCDrawerController;
+			productName = CCDrawerController;
+			productReference = 6E6B0CCC0A2EFC1AD8EE07E368F3AD37 /* CCDrawerController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					6B7FB39B73FD8F503E10678F2AD92AFD = {
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5F569EA17B73325E64A83F895C8DAE94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B7FB39B73FD8F503E10678F2AD92AFD /* CCDrawerController */,
+				413B7BE30D64154A9026B57A9740D683 /* Pods-CCDrawerController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08CC565586CDE0E93E2C37AB644585C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A90907B74ABDE0834ED646D47B9CDED /* Pods-CCDrawerController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BDAFAE20B00143FA2C8C2AA40F915C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC6A438211E1CFF00722D6E /* DrawerController.swift in Sources */,
+				9CC6A43C211E1CFF00722D6E /* DrawerBarButtonItem.swift in Sources */,
+				9CC6A43B211E1CFF00722D6E /* DrawerVisualState.swift in Sources */,
+				512C5E503042BE37BDED7655EE12CECF /* CCDrawerController-dummy.m in Sources */,
+				9CC6A43A211E1CFF00722D6E /* DrawerSegue.swift in Sources */,
+				9CC6A439211E1CFF00722D6E /* AnimatedMenuButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A0B6CBAED392283804623BEFD601765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCDrawerController;
+			target = 6B7FB39B73FD8F503E10678F2AD92AFD /* CCDrawerController */;
+			targetProxy = FAE3E174181C2708A16E04799E1E855F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		346BE8E534D2F168C9516A8233E74CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 846599A36CD1B517DE4611C2FA2D2A6D /* Pods-CCDrawerController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCDrawerController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCDrawerController_Tests/Pods-CCDrawerController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		441D9EC2B8EF2896B2448915F8B41C2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49A272C76B24CF884AD4984E14DB42A /* CCDrawerController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCDrawerController/CCDrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCDrawerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCDrawerController/CCDrawerController.modulemap";
+				PRODUCT_MODULE_NAME = CCDrawerController;
+				PRODUCT_NAME = CCDrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B80A3EC0139906A5B91E11562B7A1A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D24C63DE04E9AFEFD8206668046AFBA /* Pods-CCDrawerController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCDrawerController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCDrawerController_Tests/Pods-CCDrawerController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDBDC1E9C49CA6AB6C5092137216D39D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49A272C76B24CF884AD4984E14DB42A /* CCDrawerController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCDrawerController/CCDrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCDrawerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCDrawerController/CCDrawerController.modulemap";
+				PRODUCT_MODULE_NAME = CCDrawerController;
+				PRODUCT_NAME = CCDrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835D95653592C7393EC6ABC4FD909351 /* Build configuration list for PBXNativeTarget "Pods-CCDrawerController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346BE8E534D2F168C9516A8233E74CBC /* Debug */,
+				B80A3EC0139906A5B91E11562B7A1A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F89D7911777CC062CF37579E156333D /* Build configuration list for PBXNativeTarget "CCDrawerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBDC1E9C49CA6AB6C5092137216D39D /* Debug */,
+				441D9EC2B8EF2896B2448915F8B41C2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

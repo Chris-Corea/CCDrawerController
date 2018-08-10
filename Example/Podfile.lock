@@ -1,0 +1,16 @@
+PODS:
+  - CCDrawerController (0.1.0)
+
+DEPENDENCIES:
+  - CCDrawerController (from `../`)
+
+EXTERNAL SOURCES:
+  CCDrawerController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CCDrawerController: 1e16d0c864ca82b9197eaf3c4e0d5876667f83f5
+
+PODFILE CHECKSUM: 1ed7c1e8e7a9050999971148b16b8db0fafd2ac6
+
+COCOAPODS: 1.5.3

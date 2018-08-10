@@ -1,0 +1,6 @@
+framework module CCDrawerController {
+  umbrella header "CCDrawerController-umbrella.h"
+
+  export *
+  module * { export * }
+}
