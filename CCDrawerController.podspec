@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/chris-corea/CCDrawerController.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
+  s.swift_version = '4.1'
   
   s.subspec 'Core' do |ss|
       ss.source_files = 'CCDrawerController/Classes/DrawerController.swift', 'CCDrawerController/Classes/DrawerSegue.swift'
